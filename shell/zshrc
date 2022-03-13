@@ -38,3 +38,5 @@ then
 fi
 autoload -Uz compinit
 compinit -u
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
