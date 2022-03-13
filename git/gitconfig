@@ -9,8 +9,8 @@
   pf = push --force-with-lease
   sb = switch
   st = status
-# [color]
-#   ui = auto
+[color]
+  ui = auto
 [commit]
   template = ~/.gitmessage
 [core]
