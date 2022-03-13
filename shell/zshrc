@@ -27,3 +27,14 @@ setopt promptsubst
 if ! env | grep -q '^PS1='; then
   PS1='%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info) %# '
 fi
+
+# Completion
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+autoload -Uz compinit
+compinit -u
