@@ -2,6 +2,11 @@
 
 set -e
 
+# Symlinks
+(
+  ln -sf "$PWD/shell/hushlogin" "$HOME/.hushlogin"
+)
+
 # Homebrew
 brew analytics off
 brew update-reset
