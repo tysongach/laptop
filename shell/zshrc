@@ -4,3 +4,8 @@ alias b="bundle"
 alias be="bundle exec"
 alias e="$EDITOR"
 alias hl="heroku local"
+
+export LAPTOP="$HOME/laptop"
+
+# Prepend laptop scripts
+export PATH="$LAPTOP/bin:$PATH"
