@@ -7,6 +7,10 @@ set -e
   ln -sf "$PWD/asdf/asdfrc" "$HOME/.asdfrc"
   ln -sf "$PWD/asdf/tool-versions" "$HOME/.tool-versions"
 
+  ln -sf "$PWD/git/gitconfig" "$HOME/.gitconfig"
+  ln -sf "$PWD/git/gitignore" "$HOME/.gitignore"
+  ln -sf "$PWD/git/gitmessage" "$HOME/.gitmessage"
+
   ln -sf "$PWD/ruby/gemrc" "$HOME/.gemrc"
   ln -sf "$PWD/ruby/rspec" "$HOME/.rspec"
 
