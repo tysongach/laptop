@@ -7,6 +7,9 @@ set -e
   ln -sf "$PWD/asdf/asdfrc" "$HOME/.asdfrc"
   ln -sf "$PWD/asdf/tool-versions" "$HOME/.tool-versions"
 
+  ln -sf "$PWD/ruby/gemrc" "$HOME/.gemrc"
+  ln -sf "$PWD/ruby/rspec" "$HOME/.rspec"
+
   ln -sf "$PWD/shell/hushlogin" "$HOME/.hushlogin"
   ln -sf "$PWD/shell/zshrc" "$HOME/.zshrc"
 )
