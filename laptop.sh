@@ -4,6 +4,9 @@ set -e
 
 # Symlinks
 (
+  ln -sf "$PWD/asdf/asdfrc" "$HOME/.asdfrc"
+  ln -sf "$PWD/asdf/tool-versions" "$HOME/.tool-versions"
+
   ln -sf "$PWD/shell/hushlogin" "$HOME/.hushlogin"
 )
 
