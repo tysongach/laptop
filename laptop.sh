@@ -76,3 +76,23 @@ mas "Tweetbot", id: 1384080005
 mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
 EOF
+
+# asdf
+add_or_update_asdf_plugin() {
+  local name="$1"
+  local url="$2"
+
+  if ! asdf plugin-list | grep -Fq "$name"; then
+    asdf plugin-add "$name" "$url"
+  else
+    asdf plugin-update "$name"
+  fi
+}
+
+# Ruby
+add_or_update_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby.git"
+asdf install ruby 2.7.4
+
+# Node.js
+add_or_update_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
+asdf install nodejs 16.13.1
