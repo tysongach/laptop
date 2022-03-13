@@ -10,6 +10,11 @@ export LAPTOP="$HOME/laptop"
 # Prepend laptop scripts
 export PATH="$LAPTOP/bin:$PATH"
 
+# Color
+autoload -U colors
+colors
+export CLICOLOR=1
+
 # Prompt
 function git_prompt_info() {
   current_branch=$(git current-branch 2> /dev/null)
