@@ -88,6 +88,30 @@ mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
 EOF
 
+# Shell
+update_shell() {
+  sudo chown -R "$(whoami)" "$BREW/share/zsh" "$BREW/share/zsh/site-functions"
+  chmod u+w "$BREW/share/zsh" "$BREW/share/zsh/site-functions"
+  shellpath="$(command -v zsh)"
+
+  if ! grep "$shellpath" /etc/shells > /dev/null 2>&1 ; then
+    sudo sh -c "echo $shellpath >> /etc/shells"
+  fi
+
+  chsh -s "$shellpath"
+}
+
+case "$SHELL" in
+  */zsh)
+    if [ "$(command -v zsh)" != "$BREW/bin/zsh" ] ; then
+      update_shell
+    fi
+    ;;
+  *)
+    update_shell
+    ;;
+esac
+
 # asdf
 add_or_update_asdf_plugin() {
   local name="$1"
