@@ -1,4 +1,4 @@
-export EDITOR="code --wait --new-window"
+export EDITOR="code . --new-window"
 
 alias b="bundle"
 alias be="bundle exec"
