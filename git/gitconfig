@@ -16,6 +16,7 @@
   template = ~/.gitmessage
 [core]
   editor = code --wait
+  excludesfile = ~/.gitignore
 [credential]
   helper = osxkeychain
 [fetch]
