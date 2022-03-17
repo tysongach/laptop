@@ -2,6 +2,7 @@
   aa = add --all
   ap = add --patch
   br = branch
+  ca = commit --amend
   car = commit --amend --no-edit
   cb = switch --create
   ci = commit -v
