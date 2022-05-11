@@ -4,7 +4,6 @@ alias b="bundle"
 alias bd="bin/dev"
 alias be="bundle exec"
 alias e="$EDITOR"
-alias hl="heroku local"
 
 export LAPTOP="$HOME/laptop"
 
