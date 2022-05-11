@@ -1,6 +1,7 @@
 export EDITOR="code . --wait --new-window"
 
 alias b="bundle"
+alias bd="bin/dev"
 alias be="bundle exec"
 alias e="$EDITOR"
 alias hl="heroku local"
