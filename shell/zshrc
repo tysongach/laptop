@@ -3,6 +3,7 @@ export EDITOR="code . --wait --new-window"
 alias b="bundle"
 alias bd="bin/dev"
 alias be="bundle exec"
+alias by="bin/yarn"
 alias e="code . --new-window"
 
 export LAPTOP="$HOME/laptop"
