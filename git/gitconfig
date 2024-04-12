@@ -5,6 +5,7 @@
   ca = commit --amend
   car = commit --amend --no-edit
   cb = switch --create
+  cf = commit --fixup
   ci = commit -v
   co = checkout
   pf = push --force-with-lease
