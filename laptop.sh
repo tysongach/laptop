@@ -45,7 +45,6 @@ brew "imagemagick"
 brew "libpq"
 brew "mas"
 brew "parity"
-brew "postgres", restart_service: :changed
 brew "redis", restart_service: :changed
 brew "zsh"
 
