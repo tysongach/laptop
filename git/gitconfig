@@ -8,6 +8,7 @@
   ci = commit -v
   co = checkout
   pf = push --force-with-lease
+  rim = rebase -i main
   sb = switch
   st = status
 [color]
