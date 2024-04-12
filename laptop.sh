@@ -22,11 +22,7 @@ set -e
 BREW="/opt/homebrew"
 
 if [ ! -d "$BREW" ]; then
-  sudo mkdir -p "$BREW"
-  sudo chflags norestricted "$BREW"
-  sudo chown -R "$LOGNAME:admin" "$BREW"
-  /bin/bash -c \
-    "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 fi
 
 export PATH="$BREW/bin:$PATH"
