@@ -68,13 +68,10 @@ mas "Gifox", id: 1461845568
 mas "Hush", id: 1544743900
 mas "Instapaper Save", id: 1481302432
 mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Sim Daltonism", id: 693112260
 mas "Time Out", id: 402592703
 mas "Vinegar", id: 1591303229
-mas "Xcode", id: 497799835
 EOF
 
 # Shell
