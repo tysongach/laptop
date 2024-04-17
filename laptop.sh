@@ -62,9 +62,7 @@ cask "transmit"
 cask "visual-studio-code"
 cask "zoom"
 
-mas "Darkroom", id: 953286746
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
-mas "Gifox", id: 1461845568
 mas "Hush", id: 1544743900
 mas "Instapaper Save", id: 1481302432
 mas "Magnet", id: 441258766
