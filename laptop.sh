@@ -48,6 +48,7 @@ brew "mas"
 brew "parity"
 brew "redis", restart_service: :changed
 brew "zsh"
+brew "zsh-autosuggestions"
 
 cask "1password"
 cask "firefox"

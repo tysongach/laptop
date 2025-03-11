@@ -44,3 +44,5 @@ autoload -Uz compinit
 compinit -u
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
