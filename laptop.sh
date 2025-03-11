@@ -43,7 +43,6 @@ brew "git"
 brew "gitsh"
 brew "heroku"
 brew "imagemagick"
-brew "libpq"
 brew "mas"
 brew "parity"
 brew "redis", restart_service: :changed
