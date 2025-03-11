@@ -11,6 +11,7 @@ set -e
   ln -sf "$PWD/git/gitignore" "$HOME/.gitignore"
   ln -sf "$PWD/git/gitmessage" "$HOME/.gitmessage"
 
+  ln -sf "$PWD/ruby/default-gems" "$HOME/.default-gems"
   ln -sf "$PWD/ruby/gemrc" "$HOME/.gemrc"
   ln -sf "$PWD/ruby/rspec" "$HOME/.rspec"
 
