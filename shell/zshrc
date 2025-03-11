@@ -5,6 +5,9 @@ alias bd="bin/dev"
 alias be="bundle exec"
 alias by="bin/yarn"
 alias e="code . --new-window"
+alias gc="bin/rails generate component"
+alias ih="bundle exec i18n-tasks health"
+alias in="bundle exec i18n-tasks normalize"
 
 export LAPTOP="$HOME/laptop"
 
