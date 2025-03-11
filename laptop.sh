@@ -99,8 +99,8 @@ add_or_update_asdf_plugin() {
 
 # Ruby
 add_or_update_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby.git"
-asdf install ruby 2.3.3
+asdf install ruby 2.4.2
 
 # Node.js
 add_or_update_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
-asdf install nodejs 20.12.2
+asdf install nodejs 22.14.0
