@@ -72,6 +72,7 @@ mas "Magnet", id: 441258766
 mas "Pixelmator Pro", id: 1289583905
 mas "Sim Daltonism", id: 693112260
 mas "Time Out", id: 402592703
+mas "ToothFairy", id: 1191449274
 mas "Vinegar", id: 1591303229
 EOF
 
