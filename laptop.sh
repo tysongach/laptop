@@ -23,7 +23,7 @@ set -e
 BREW="/opt/homebrew"
 
 if [ ! -d "$BREW" ]; then
-  curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 export PATH="$BREW/bin:$PATH"
