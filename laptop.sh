@@ -51,6 +51,7 @@ brew "zsh-autosuggestions"
 
 cask "1password"
 cask "choosy"
+cask "docker"
 cask "firefox"
 cask "github"
 cask "google-chrome"
