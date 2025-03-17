@@ -50,6 +50,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 
 cask "1password"
+cask "choosy"
 cask "firefox"
 cask "github"
 cask "google-chrome"
