@@ -68,6 +68,7 @@ cask "visual-studio-code"
 cask "zoom"
 
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Harvest", id: 506189836
 mas "Hush", id: 1544743900
 mas "Instapaper Save", id: 1481302432
 mas "Magnet", id: 441258766
