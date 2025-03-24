@@ -33,7 +33,6 @@ brew update-reset
 
 brew bundle --file=- <<EOF
 tap "heroku/brew"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
 
