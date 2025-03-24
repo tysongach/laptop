@@ -9,6 +9,9 @@ alias gc="bin/rails generate component"
 alias ih="bundle exec i18n-tasks health"
 alias in="bundle exec i18n-tasks normalize"
 
+# Homebrew
+PATH="/opt/homebrew/bin:$PATH"
+
 export LAPTOP="$HOME/laptop"
 
 # Prepend laptop scripts
