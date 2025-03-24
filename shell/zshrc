@@ -12,10 +12,12 @@ alias in="bundle exec i18n-tasks normalize"
 # Homebrew
 PATH="/opt/homebrew/bin:$PATH"
 
+# Laptop
 export LAPTOP="$HOME/laptop"
+PATH="$LAPTOP/bin:$PATH"
 
-# Prepend laptop scripts
-export PATH="$LAPTOP/bin:$PATH"
+# Postgres.app
+PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # Color
 autoload -U colors
