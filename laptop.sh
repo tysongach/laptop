@@ -46,6 +46,13 @@ brew "stripe/stripe-cli/stripe"
 brew "zsh"
 brew "zsh-autosuggestions"
 
+# ruby-build dependencies
+brew "autoconf"
+brew "gmp"
+brew "libyaml"
+brew "openssl@3"
+brew "readline"
+
 cask "1password"
 cask "choosy"
 cask "docker"
