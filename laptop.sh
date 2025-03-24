@@ -71,6 +71,7 @@ mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Harvest", id: 506189836
 mas "Hush", id: 1544743900
 mas "Instapaper Save", id: 1481302432
+mas "Lightweight PDF 2", id: 6737913061
 mas "Magnet", id: 441258766
 mas "Pixelmator Pro", id: 1289583905
 mas "Sim Daltonism", id: 693112260
