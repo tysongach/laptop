@@ -43,6 +43,8 @@ fi
 autoload -Uz compinit
 compinit -u
 
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+eval "$(mise activate zsh)"
+
+export PATH

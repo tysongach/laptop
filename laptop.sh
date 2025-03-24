@@ -4,9 +4,6 @@ set -e
 
 # Symlinks
 (
-  ln -sf "$PWD/asdf/asdfrc" "$HOME/.asdfrc"
-  ln -sf "$PWD/asdf/tool-versions" "$HOME/.tool-versions"
-
   ln -sf "$PWD/git/gitconfig" "$HOME/.gitconfig"
   ln -sf "$PWD/git/gitignore" "$HOME/.gitignore"
   ln -sf "$PWD/git/gitmessage" "$HOME/.gitmessage"
@@ -36,13 +33,13 @@ tap "heroku/brew"
 tap "homebrew/services"
 tap "thoughtbot/formulae"
 
-brew "asdf"
 brew "gh"
 brew "git"
 brew "gitsh"
 brew "heroku"
 brew "imagemagick"
 brew "mas"
+brew "mise"
 brew "parity"
 brew "redis", restart_service: :changed
 brew "stripe/stripe-cli/stripe"
@@ -91,23 +88,3 @@ if [ "$(command -v zsh)" != "$BREW/bin/zsh" ] ; then
 
   chsh -s "$shellpath"
 fi
-
-# asdf
-add_or_update_asdf_plugin() {
-  local name="$1"
-  local url="$2"
-
-  if ! asdf plugin-list | grep -Fq "$name"; then
-    asdf plugin-add "$name" "$url"
-  else
-    asdf plugin-update "$name"
-  fi
-}
-
-# Ruby
-add_or_update_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby.git"
-asdf install ruby 2.4.2
-
-# Node.js
-add_or_update_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs.git"
-asdf install nodejs 22.14.0
