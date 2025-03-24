@@ -46,6 +46,7 @@ brew "imagemagick"
 brew "mas"
 brew "parity"
 brew "redis", restart_service: :changed
+brew "stripe/stripe-cli/stripe"
 brew "zsh"
 brew "zsh-autosuggestions"
 
